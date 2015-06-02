@@ -6,8 +6,8 @@ The Meta Buttons module is a shortcut collection of all Predix Experience button
 
 Px's Meta Buttons module depends on two other Px modules:
 
-* [px-button-group-design](https://github.sw.ge.com/PXd/px-button-group-design)
-* [px-buttons-design](https://github.sw.ge.com/PXd/px-buttons-design)
+* [px-button-group-design](https://github.build.ge.com/PXd/px-button-group-design)
+* [px-buttons-design](https://github.build.ge.com/PXd/px-buttons-design)
 
 ## Installation
 
@@ -19,7 +19,7 @@ Once installed, `@import` into your project's Sass file in its Meta layer:
 
     @import "../px-meta-buttons-design/meta.buttons";
 
-See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Variable Flags
 
