@@ -2,7 +2,7 @@
 
 The Meta Buttons module is a shortcut collection of all Predix Experience button related modules.
 
-## Dependency
+## Dependencies
 
 Px's Meta Buttons module depends on two other Px modules:
 
@@ -29,9 +29,8 @@ By using Meta Buttons you will also set these module feature switches to `true`:
     $inuit-enable-btn--tertiary
     $inuit-enable-btn--small
     $inuit-enable-btn--large
-    $inuit-enable-btn--cta
+    $inuit-enable-btn--huge
     $inuit-enable-btn--full
     $inuit-enable-btn--icon
     $inuit-enable-btn--bare
     $inuit-enable-btn--disabled
-    $inuit-global-border-box
