@@ -18,17 +18,3 @@ Install this module and its dependencies using bower:
 Once installed, `@import` into your project's Sass file in its Meta layer:
 
     @import "px-meta-buttons-design/_meta.buttons.scss";
-
-## Variable Flags
-
-By using Meta Buttons you will also set these module feature switches to `true`:
-
-    $inuit-enable-btn--primary
-    $inuit-enable-btn--tertiary
-    $inuit-enable-btn--small
-    $inuit-enable-btn--large
-    $inuit-enable-btn--huge
-    $inuit-enable-btn--full
-    $inuit-enable-btn--icon
-    $inuit-enable-btn--bare
-    $inuit-enable-btn--disabled
