@@ -1,10 +1,10 @@
 # Meta Buttons
 
-The Meta Buttons module is a shortcut collection of all Predix Experience button related modules.
+The Meta Buttons module is a shortcut collection of all Predix UI button related modules.
 
 ## Dependencies
 
-Px's Meta Buttons module depends on two other Px modules:
+Predix UI's Meta Buttons module depends on two other Px modules:
 
 * [px-button-group-design](https://github.com/PredixDev/px-button-group-design)
 * [px-buttons-design](https://github.com/PredixDev/px-buttons-design)
@@ -13,8 +13,8 @@ Px's Meta Buttons module depends on two other Px modules:
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.com/PredixDev/px-meta-buttons-design.git
+    bower install --save px-meta-buttons-design
 
-Once installed, `@import` into your project's Sass file in its Meta layer:
+Once installed, `@import` into your project's Sass file in its **Meta** layer:
 
     @import "px-meta-buttons-design/_meta.buttons.scss";

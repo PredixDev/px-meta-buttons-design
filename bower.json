@@ -1,6 +1,6 @@
 {
   "name": "px-meta-buttons-design",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "authors": [
     "General Electric"
   ],
@@ -19,7 +19,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "OSS_Notice.pdf"
   ],
   "dependencies": {
     "px-button-group-design": "https://github.com/PredixDev/px-button-group-design.git#~0.3.0",
