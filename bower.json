@@ -11,7 +11,6 @@
     "sass",
     "buttons"
   ],
-  "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-meta-buttons-design.git",
   "private": false,
   "ignore": [
