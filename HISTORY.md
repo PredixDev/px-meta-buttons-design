@@ -1,6 +1,11 @@
+v1.0.0
+==================
+* updated dependencies for design refresh
+* added simple demos for buttons and button groups
+
 v0.6.4
 ==================
-* Updated to the new demo using px-demo 
+* Updated to the new demo using px-demo
 
 v0.6.3
 ==================
@@ -12,7 +17,7 @@ v0.6.2
 
 v0.6.1
 ==================
-* Update missed design depndencies
+* Update missed design dependencies
 
 v0.6.0
 ==================
