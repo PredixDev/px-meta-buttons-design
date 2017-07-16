@@ -1,10 +1,10 @@
-# Meta Buttons
+# px-meta-buttons-design
 
-The Meta Buttons module is a shortcut collection of all Predix UI button related modules.
+The Predix UI Meta Buttons module is a shortcut collection of all Predix UI button related modules.
 
 ## Dependencies
 
-Predix UI's Meta Buttons module depends on two other Px modules:
+The px-meta-buttons-design module depends on two other Px modules:
 
 * [px-button-group-design](https://github.com/PredixDev/px-button-group-design)
 * [px-buttons-design](https://github.com/PredixDev/px-buttons-design)
