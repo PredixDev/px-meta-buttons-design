@@ -1,3 +1,7 @@
+v1.0.2
+==================
+* rebuild css
+
 v1.0.1
 ==================
 * runtime theming for demo
