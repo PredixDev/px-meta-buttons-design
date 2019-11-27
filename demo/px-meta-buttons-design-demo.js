@@ -1,4 +1,4 @@
-<!--
+/*
 Copyright (c) 2018, General Electric
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,32 +12,31 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
--->
+*/
+/* Common imports */
+/* Common demo imports */
+/* Demo DOM module */
+/*
+  FIXME(polymer-modulizer): the above comments were extracted
+  from HTML and may be out of place here. Review them and
+  then delete this comment!
+*/
+import '@polymer/polymer/polymer-legacy.js';
 
-<!-- Common imports -->
-<link rel="import" href="../../polymer/polymer.html" />
-
-  <!-- Common demo imports -->
-  <link rel="import" href="../../px-sass-doc/px-sass-doc.html" />
-  <link rel="import" href="../css/px-meta-buttons-design-demo-styles.html" />
-
-<!-- Demo DOM module -->
-<dom-module id="px-meta-buttons-design-demo">
-  <template>
+import 'px-sass-doc/px-sass-doc.js';
+import '../css/px-meta-buttons-design-demo-styles.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
+Polymer({
+  _template: html`
   <!-- 0: Import the styles-->
   <style include="px-meta-buttons-design-demo-styles" is="custom-style"></style>
 
 <!-- 1: Describe Module -->
-<px-sass-doc
-  module-name="px-meta-buttons-design"
-  description="The Meta Buttons module is a shortcut collection of all Predix UI button related modules - that is, it automatically imports the two dependent libraries (buttons and button-group). Note: The flags for buttons and buttons-group will still need be to set to true above meta buttons import."
-  layer="meta"
-  sassdoc-path="sassdoc.json"
-  dependencies='[
-    "https://github.com/PredixDev/px-buttons-design",
-    "https://github.com/PredixDev/px-button-group-design"
-  ]'
-  selected-options="{{selectedOptions}}">
+<px-sass-doc module-name="px-meta-buttons-design" description="The Meta Buttons module is a shortcut collection of all Predix UI button related modules - that is, it automatically imports the two dependent libraries (buttons and button-group). Note: The flags for buttons and buttons-group will still need be to set to true above meta buttons import." layer="meta" sassdoc-path="sassdoc.json" dependencies="[
+    &quot;https://github.com/PredixDev/px-buttons-design&quot;,
+    &quot;https://github.com/PredixDev/px-button-group-design&quot;
+  ]" selected-options="{{selectedOptions}}">
 
 <!-- 2: Set Options -->
 <!-- N/A -->
@@ -47,13 +46,13 @@ limitations under the License.
 <p>px-button-design</p>
 <button class="btn btn--primary">Label</button>
 
-</br></br>
+<br><br>
 
 <p>px-button-group-design</p>
 <div class="btn-group">
-  <input id="id1" name="btn-group"  type="radio">
+  <input id="id1" name="btn-group" type="radio">
   <label for="id1" class="btn">Label 1</label>
-  <input id="id2" name="btn-group"  type="radio">
+  <input id="id2" name="btn-group" type="radio">
   <label for="id2" class="btn">Label 2</label>
 </div>
 </section>
@@ -69,17 +68,13 @@ limitations under the License.
 </section>
 
 </px-sass-doc>
-</template>
+`,
 
-</dom-module>
+  is: 'px-meta-buttons-design-demo',
 
-<script>
-  Polymer({
-    is: 'px-meta-buttons-design-demo',
-    attached : function(){
-      this.async(function() {
-        this.fire('px-sass-doc-demo-updated',{})
-      }, 10);
-    }
-  });
-</script>
+  attached : function(){
+    this.async(function() {
+      this.fire('px-sass-doc-demo-updated',{})
+    }, 10);
+  }
+});
